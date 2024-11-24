@@ -27,6 +27,7 @@ struct AddView: View {
                         .background(Color.accentColor)
                         .cornerRadius(10)
                 })
+                .disabled(textFieldText.count < 3)
             }
             .padding(14)
         }
